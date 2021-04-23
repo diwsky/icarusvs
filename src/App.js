@@ -1,14 +1,5 @@
-import logo from "./logo.svg"
-import "./App.css"
+import Homepage from "./Homepage"
 
-function App() {
-	return (
-		<div className="App">
-			<header className="App-header">
-				<h1>ICARUS VIRTUAL SPORTS</h1>
-			</header>
-		</div>
-	)
-}
+const App = () => <Homepage></Homepage>
 
 export default App
