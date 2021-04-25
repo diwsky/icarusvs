@@ -17,6 +17,7 @@ import {
 import DirectionsRunIcon from "@material-ui/icons/DirectionsRun"
 import useStyles from "./styles"
 import Header from "../components/Header"
+import Body from "../components/Body"
 
 export default function Homepage() {
 	const classes = useStyles()
@@ -24,6 +25,7 @@ export default function Homepage() {
 		<div className={classes.background}>
 			<CssBaseline />
 			<Header />
+			<Body />
 		</div>
 	)
 }
